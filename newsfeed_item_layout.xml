@@ -1,0 +1,128 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+	
+	<LinearLayout
+		android:layout_width="match_parent"
+   	 android:layout_height="wrap_content"
+		android:layout_margin="4dp"
+		android:padding="16dp"
+		android:orientation="vertical">
+	
+		<LinearLayout
+			android:layout_width="match_parent"
+   		 android:layout_height="wrap_content"
+			android:gravity="center_vertical"
+			android:orientation="horizontal">
+			
+			<de.hdodenhof.circleimageview.CircleImageView
+    			android:id="@+id/noticeProfile"
+    			android:layout_width="36dp"
+ 		 	  android:layout_height="36dp"
+		  	  android:src="@drawable/profile"
+				android:layout_gravity="center"
+  			  app:civ_border_width="2dp"
+ 			   app:civ_border_color="#FF000000"/>
+				
+			
+			<LinearLayout
+				android:layout_width="match_parent"
+   		 	android:layout_height="wrap_content"
+				android:layout_marginLeft="16dp"
+				android:orientation="vertical">
+				
+				<TextView
+					android:id="@+id/noticeSender"
+					android:layout_width="match_parent"
+   		 		android:layout_height="wrap_content"
+					android:text="Admin SVM app"
+					android:textSize="19sp"
+					android:textStyle="bold"
+					android:textColor="@color/textColor"/>
+				
+				<LinearLayout
+					android:layout_width="match_parent"
+   		 		android:layout_height="wrap_content"
+					android:orientation="horizontal">
+					
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="Date: "
+						android:fontFamily="@string/regular"
+						android:textSize="@dimen/text_size01"
+						android:textColor="@color/textColor"/>
+						
+					<TextView
+						android:id="@+id/date"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="15 aug 2022"
+						android:fontFamily="@string/regular"
+						android:textSize="@dimen/text_size01"
+						android:textColor="@color/textColor"/>
+						
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="Time: "
+						android:fontFamily="@string/regular"
+						android:layout_marginLeft="@dimen/text_margin"
+						android:textSize="@dimen/text_size01"
+						android:textColor="@color/textColor"/>
+					
+					<TextView
+						android:id="@+id/time"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="2:55 pm"
+						android:fontFamily="@string/regular"
+						android:textSize="@dimen/text_size01"
+						android:textColor="@color/textColor"/>
+					
+				</LinearLayout>
+					
+			</LinearLayout>
+					
+		</LinearLayout>
+	
+		<TextView
+					android:id="@+id/noticeTitle"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginVertical="@dimen/text_margin"
+					android:text="Notice Heading."
+					android:textSize="16sp"
+					android:textColor="@color/textColor"/>
+					
+		<androidx.cardview.widget.CardView
+			android:id="@+id/imagecard"
+			android:layout_width="match_parent"
+			android:layout_height="400dp"
+			android:visibility="gone"
+			android:layout_marginTop="16dp">
+		<ImageView
+			android:id="@+id/noticeImage"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:visibility="invisible"
+			android:scaleType="centerInside"/>
+		</androidx.cardview.widget.CardView>
+		
+		<android.view.View
+			android:layout_width="match_parent"
+			android:layout_height="2dp"
+			android:layout_marginVertical="8dp"
+			android:background="@color/colorPrimary"/>
+			
+	</LinearLayout>
+	
+	<android.view.View
+	android:layout_width="match_parent"
+	android:layout_height="2dp"
+	android:layout_marginVertical="8dp"
+	android:background="@color/colorPrimaryDark"/>
+	
+</androidx.cardview.widget.CardView>

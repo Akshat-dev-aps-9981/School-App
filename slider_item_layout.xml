@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	
+	<ImageView
+		android:layout_width="match_parent"
+   	 android:layout_height="match_parent"
+		android:id="@+id/image"
+		android:scaleType="fitXY"/>
+		
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:background="@drawable/bg_overlay"
+		android:layout_alignParentBottom="true">
+		
+		<TextView
+			android:id="@+id/textDecs"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:text="Akshat Sharma"
+			android:textColor="#ffffff"
+			android:textSize="22sp"
+			android:textStyle="bold"
+			android:gravity="center"/>
+			
+	</RelativeLayout>
+		
+	
+</RelativeLayout>

@@ -1,0 +1,219 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+		
+		<androidx.cardview.widget.CardView
+			android:layout_width="match_parent"
+			android:layout_height="200dp">
+			
+			<ImageView
+				android:id="@+id/image1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:src="@drawable/cmp0"
+				android:scaleType="centerCrop"/>
+		
+		</androidx.cardview.widget.CardView>
+		
+		<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/about_school"
+				android:layout_marginTop="@dimen/text_margin"
+				android:layout_marginHorizontal="@dimen/text_margin"
+				android:textSize="@dimen/text_size"
+				android:layout_gravity="center_horizontal"
+				android:textColor="@color/textColor"
+				android:fontFamily="@string/regular"/>
+				
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="6dp"
+			android:orientation="horizontal">
+			
+			<ImageView
+				android:layout_width="15dp"
+				android:layout_height="15dp"
+				android:src="@drawable/ic_point"/>
+				
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Clean Playground"
+				android:layout_marginTop="@dimen/text_margin"
+				android:layout_marginHorizontal="@dimen/text_margin"
+				android:textSize="@dimen/text_size"
+				android:layout_gravity="center_horizontal"
+				android:textColor="@color/textColor"
+				android:fontFamily="@string/regular"/>
+				
+		</LinearLayout>
+		
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="3dp"
+			android:orientation="horizontal">
+			
+			<ImageView
+				android:layout_width="15dp"
+				android:layout_height="15dp"
+				android:src="@drawable/ic_point"/>
+				
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Beautiful Garden"
+				android:layout_marginTop="@dimen/text_margin"
+				android:layout_marginHorizontal="@dimen/text_margin"
+				android:textSize="@dimen/text_size"
+				android:layout_gravity="center_horizontal"
+				android:textColor="@color/textColor"
+				android:fontFamily="@string/regular"/>
+				
+		</LinearLayout>
+		
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="3dp"
+			android:orientation="horizontal">
+			
+			<ImageView
+				android:layout_width="15dp"
+				android:layout_height="15dp"
+				android:src="@drawable/ic_point"/>
+				
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Computer Classes"
+				android:layout_marginTop="@dimen/text_margin"
+				android:layout_marginHorizontal="@dimen/text_margin"
+				android:textSize="@dimen/text_size"
+				android:layout_gravity="center_horizontal"
+				android:textColor="@color/textColor"
+				android:fontFamily="@string/regular"/>
+				
+		</LinearLayout>
+		
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="3dp"
+			android:orientation="horizontal">
+			
+			<ImageView
+				android:layout_width="15dp"
+				android:layout_height="15dp"
+				android:src="@drawable/ic_point"/>
+				
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Quallified Teachers"
+				android:layout_marginTop="@dimen/text_margin"
+				android:layout_marginHorizontal="@dimen/text_margin"
+				android:textSize="@dimen/text_size"
+				android:layout_gravity="center_horizontal"
+				android:textColor="@color/textColor"
+				android:fontFamily="@string/regular"/>
+				
+		</LinearLayout>
+		
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="3dp"
+			android:orientation="horizontal">
+			
+			<ImageView
+				android:layout_width="15dp"
+				android:layout_height="15dp"
+				android:src="@drawable/ic_point"/>
+				
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="ATAL Lab"
+				android:layout_marginTop="@dimen/text_margin"
+				android:layout_marginHorizontal="@dimen/text_margin"
+				android:textSize="@dimen/text_size"
+				android:layout_gravity="center_horizontal"
+				android:textColor="@color/textColor"
+				android:fontFamily="@string/regular"/>
+				
+		</LinearLayout>
+			
+		
+		<androidx.cardview.widget.CardView
+               app:cardCornerRadius="6dp"
+               android:layout_margin="6dp"
+			   android:padding="12dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+				   
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:background="@color/colorPrimary"
+				android:layout_marginTop="36dp"
+				android:layout_marginBottom="36dp"
+				android:padding="@dimen/text_margin">
+				   
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Contact Details"
+					android:layout_marginTop="16dp"
+					android:layout_marginBottom="5dp"
+					android:textSize="@dimen/text_size"
+					android:layout_gravity="center_horizontal"
+					android:textColor="@color/white"
+					android:fontFamily="@string/bold"/>
+					
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Sarasvati Shishu Vidya Mandir,\nUjjain-Kota Road, Agar, Dist. Agar Malwa, 465441.\nContact Number:	+919981132391."
+					android:layout_marginTop="@dimen/text_margin"
+					android:layout_marginHorizontal="@dimen/text_margin"
+					android:textSize="@dimen/text_size"
+					android:layout_gravity="center_horizontal"
+					android:textColor="#FF0000"
+					android:fontFamily="@string/semibold"/>
+				
+			</LinearLayout>
+			</androidx.cardview.widget.CardView>
+		
+		<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Subjects"
+				android:layout_marginTop="36dp"
+				android:textSize="@dimen/title_size"
+				android:layout_gravity="center_horizontal"
+				android:textColor="@color/titleColor"
+				android:fontFamily="@string/bold"/>
+				
+		
+		<androidx.viewpager.widget.ViewPager
+			android:id="@+id/viewPager"
+			android:layout_width="match_parent"
+			android:layout_height="250dp"
+			android:layout_marginTop="@dimen/text_margin"
+			android:foregroundGravity="center"
+			android:clipToPadding="false"
+			android:overScrollMode="never"/>
+		
+	</LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

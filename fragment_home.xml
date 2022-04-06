@@ -1,0 +1,251 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+		
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical">
+			
+		<androidx.cardview.widget.CardView
+			app:cardCornerRadius="6dp"
+			android:layout_margin="6dp"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+			
+			<com.smarteist.autoimageslider.SliderView
+				android:id="@+id/sliderView"
+				android:layout_width="match_parent"
+				android:layout_height="250dp"
+				app:sliderAnimationDuration="1000"
+				app:sliderAutoCycleDirection="back_and_forth"
+				app:sliderIndicatorRadius="2dp"
+				app:sliderIndicatorSelectedColor="#5A5A5A"
+				app:sliderIndicatorUnselectedColor="#FFF"
+				app:sliderScrollTimeInSec="3"
+				app:sliderStartAutoCycle="true" />
+				
+			</androidx.cardview.widget.CardView>
+				
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Sarasvati Vidya Mandir Agar"
+				android:layout_marginTop="36dp"
+				android:textSize="@dimen/title_size"
+				android:layout_gravity="center_horizontal"
+				android:textColor="@color/titleColor"
+				android:fontFamily="@string/bold"/>
+				
+				
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/about_school"
+				android:layout_marginTop="@dimen/text_margin"
+				android:layout_marginHorizontal="@dimen/text_margin"
+				android:textSize="@dimen/text_size"
+				android:layout_gravity="center_horizontal"
+				android:textColor="@color/textColor"
+				android:fontFamily="@string/regular"/>
+				
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="36dp"
+				android:background="@color/darkColor"
+				android:orientation="vertical">
+				
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:layout_margin="36dp"
+					android:orientation="vertical">
+					
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="Subjects"
+						android:layout_marginTop="36dp"
+						android:textSize="@dimen/title_size"
+						android:layout_gravity="center_horizontal"
+						android:textColor="@color/white"
+						android:fontFamily="@string/bold"/>
+						
+					<com.google.android.material.card.MaterialCardView
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="16dp">
+						
+						<LinearLayout
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:orientation="vertical">
+							
+							<android.view.View
+								android:layout_width="match_parent"
+								android:layout_height="2dp"
+								android:layout_marginVertical="8dp"
+								android:background="@color/purple_200"/>
+								
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="Mathematics"
+								android:layout_marginTop="@dimen/text_margin"
+								android:layout_marginHorizontal="@dimen/text_margin"
+								android:textSize="@dimen/text_size"
+								android:layout_gravity="center_horizontal"
+								android:textColor="@color/textColor"
+								android:fontFamily="@string/regular"/>
+								
+							<android.view.View
+								android:layout_width="match_parent"
+								android:layout_height="2dp"
+								android:layout_marginVertical="8dp"
+								android:background="@color/purple_200"/>
+							
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="Biology"
+								android:layout_marginTop="@dimen/text_margin"
+								android:layout_marginHorizontal="@dimen/text_margin"
+								android:textSize="@dimen/text_size"
+								android:layout_gravity="center_horizontal"
+								android:textColor="@color/textColor"
+								android:fontFamily="@string/regular"/>
+								
+							<android.view.View
+								android:layout_width="match_parent"
+								android:layout_height="2dp"
+								android:layout_marginVertical="8dp"
+								android:background="@color/purple_200"/>
+							
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="Commerce"
+								android:layout_marginTop="@dimen/text_margin"
+								android:layout_marginHorizontal="@dimen/text_margin"
+								android:textSize="@dimen/text_size"
+								android:layout_gravity="center_horizontal"
+								android:textColor="@color/textColor"
+								android:fontFamily="@string/regular"/>
+								
+							<android.view.View
+								android:layout_width="match_parent"
+								android:layout_height="2dp"
+								android:layout_marginVertical="8dp"
+								android:background="@color/purple_200"/>
+							
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="Arts"
+								android:layout_marginTop="@dimen/text_margin"
+								android:layout_marginHorizontal="@dimen/text_margin"
+								android:textSize="@dimen/text_size"
+								android:layout_gravity="center_horizontal"
+								android:textColor="@color/textColor"
+								android:fontFamily="@string/regular"/>
+								
+							<android.view.View
+								android:layout_width="match_parent"
+								android:layout_height="2dp"
+								android:layout_marginVertical="8dp"
+								android:background="@color/purple_200"/>
+							
+						</LinearLayout>
+						
+					</com.google.android.material.card.MaterialCardView>
+					
+				</LinearLayout>
+				
+			</LinearLayout>
+			
+			<androidx.cardview.widget.CardView
+            	   app:cardCornerRadius="6dp"
+             	  android:layout_margin="6dp"
+				   android:padding="12dp"
+            	   android:layout_width="match_parent"
+           	    android:layout_height="wrap_content">
+				   
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:background="@color/colorPrimary"
+				android:layout_marginTop="36dp"
+				android:layout_marginBottom="36dp"
+				android:padding="@dimen/text_margin">
+				   
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Contact Details"
+					android:layout_marginTop="16dp"
+					android:layout_marginBottom="5dp"
+					android:textSize="@dimen/text_size"
+					android:layout_gravity="center_horizontal"
+					android:textColor="@color/white"
+					android:fontFamily="@string/bold"/>
+					
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="Sarasvati Shishu Vidya Mandir,\nUjjain-Kota Road, Agar, Dist. Agar Malwa, 465441.\nContact Number:	+919981132391."
+					android:layout_marginTop="@dimen/text_margin"
+					android:layout_marginHorizontal="@dimen/text_margin"
+					android:textSize="@dimen/text_size"
+					android:layout_gravity="center_horizontal"
+					android:textColor="#FF0000"
+					android:fontFamily="@string/semibold"/>
+				
+			</LinearLayout>
+			</androidx.cardview.widget.CardView>
+			
+			<androidx.cardview.widget.CardView
+            	   app:cardCornerRadius="6dp"
+             	  android:layout_margin="6dp"
+				   android:padding="12dp"
+				   android:layout_marginBottom="2dp"
+				   android:layout_marginTop="5dp"
+            	   android:layout_width="match_parent"
+           	    android:layout_height="wrap_content">
+				  <LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:orientation="vertical">
+						
+				   <TextView
+					   android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="Find Us on Google Maps."
+						android:layout_marginTop="6dp"
+						android:layout_marginBottom="5dp"
+						android:textSize="@dimen/title_size"
+						android:layout_gravity="center_horizontal"
+						android:textColor="@color/titleColor"/>
+				   
+				   <ImageView
+					   android:id="@+id/map"
+					   android:layout_width="match_parent"
+           	    	android:layout_height="400dp"
+					   android:scaleType="centerCrop"
+					   android:src="@drawable/map"/>
+					   
+				  </LinearLayout>
+				   
+			</androidx.cardview.widget.CardView>
+			
+		</LinearLayout>
+		
+	</ScrollView>
+
+</FrameLayout>
