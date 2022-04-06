@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+<string name="app_name">SVM Students Agar</string>
+
+<string name="bold" tools:ignore="ReferenceType">@font/boldf</string>
+<string name="semibold" tools:ignore="ReferenceType">@font/semiboldf</string>
+<string name="regular" tools:ignore="ReferenceType">@font/regularf</string>
+<string name="medium" tools:ignore="ReferenceType">@font/mediumf</string>
+
+<string name="start">Start</string>
+<string name="close">Close</string>
+
+<string name="about_school">Agar in Agar Malwa has a school named Saraswati Shishu Mandir. 7 dedicated and professional teachers ensure that the children get the maximum out of their eduaction in this Other Board school. 1992 saw Saraswati Shishu Mandir being launched. With the student teacher ratio being 19:1 the primary medium of instruction is Hindi. The school takes pride of its excellent teaching methodology. The school provides education to students from class 1 to 8. This school has approximately 135 as student strength. 50 books are there in the library of this school. The school has given exceptional results in the academic sphere and its students have excelled in extra co-curricular activities too.</string>
+
+</resources>
